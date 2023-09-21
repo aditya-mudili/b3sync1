@@ -2,7 +2,6 @@ package com.example.b3sync.data
 
 class Dice(num : Int) {
     var sides=6
-    val diceRange = 1..6
     fun roll(num: Int): Int {
         val randomNumber = (1..num).random()
         return randomNumber
